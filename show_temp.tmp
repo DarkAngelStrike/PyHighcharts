@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+      <script type="text/javascript" src="http://code.highcharts.com/highcharts.js"></script>
+      <script type="text/javascript" src="http://code.highcharts.com/modules/exporting.js"></script>
+      <script type="text/javascript">
+         {chart_data}
+      </script>
+   </head>
+   <body>
+
+      <!-- <hr width="75%"> -->
+         <div id="lpar_cpu_ent"></div>
+         <div id="lpar_cpu_vp"></div>
+         <div id="lpar_cpu_spool"></div>
+      <!-- <hr width="75%"> -->
+         <div id="cpu_summ"></div>
+      <!-- <hr width="75%"> -->
+         <div id="disk_summ_area"></div>
+         <div id="disk_summ_column"></div>
+      <!-- <hr width="75%"> -->
+         <div id="disk_bsize_avg_wavg_max"></div>
+         <div id="disk_bsize"></div>
+         <div id="disk_busy_avg_wavg_max"></div>
+         <div id="disk_busy"></div>
+         <div id="disk_read_avg_wavg_max"></div>
+         <div id="disk_read"></div>
+         <div id="disk_rxfer_avg_wavg_max"></div>
+         <div id="disk_rxfer"></div>
+         <div id="disk_serv_avg_wavg_max"></div>
+         <div id="disk_serv"></div>
+         <div id="disk_wait_avg_wavg_max"></div>
+         <div id="disk_wait"></div>
+         <div id="disk_write_avg_wavg_max"></div>
+         <div id="disk_write"></div>
+         <div id="disk_xfer_avg_wavg_max"></div>
+         <div id="disk_xfer"></div>
+      <!-- <hr width="75%"> -->
+         <div id="fcread_avg_wavg_max"></div>
+         <div id="fcread"></div>
+         <div id="fcwrite_avg_wavg_max"></div>
+         <div id="fcwrite"></div>
+         <div id="fcxferin_avg_wavg_max"></div>
+         <div id="fcxferin"></div>
+         <div id="fcxferout_avg_wavg_max"></div>
+         <div id="fcxferout"></div>
+      <!-- <hr width="75%"> -->
+         <div id="mem_real"></div>
+         <div id="mem_total"></div>
+         <div id="mem_new"></div>
+         <div id="mem_use"></div>
+      <!-- <hr width="75%"> -->
+         <div id="page_pgs"></div>
+         <div id="page_pg"></div>
+         <div id="page_srfr"></div>
+      <!-- <hr width="75%"> -->
+         <div id="paging_"></div>
+         <div id="paging"></div>
+      <!-- <hr width="75%"> -->
+         <div id="pools"></div>
+      <!-- <hr width="75%"> -->
+         <div id="proc_1"></div>
+         <div id="proc_2"></div>
+         <div id="proc_3"></div>
+      <!-- <hr width="75%"> -->
+         <div id="procaio_avg_wavg_max"></div>
+         <div id="procaio_asynch"></div>
+      <!-- <hr width="75%"> -->
+         <div id="net_total"></div>
+         <div id="net_avg_wavg_max"></div>
+         <div id="net"></div>
+      <!-- <hr width="75%"> -->
+         <div id="netpacket_avg_wavg_max"></div>
+         <div id="netpacket"></div>
+      <!-- <hr width="75%"> -->
+         <div id="netsize_avg_wavg_max"></div>
+         <div id="netsize"></div>
+      <!-- <hr width="75%"> -->
+         <div id="jfsfile_avg_wavg_max"></div>
+      <!-- <hr width="75%"> -->
+         <div id="jfsinode_avg_wavg_max"></div>
+      <!-- <hr width="75%"> -->
+         <div id="file_rwsyscalls"></div>
+         <div id="file_fsfunc"></div>
+      <!-- <hr width="75%"> -->
+         <div id="ioadapt_avg_wavg_max"></div>
+         <div id="ioadapt_read_write"></div>
+         <div id="ioadapt_xfer_tps"></div>
+      <!-- <hr width="75%"> -->
+         <div id="vg_busy_avg_wavg_max"></div>
+         <div id="vg_busy"></div>
+         <div id="vg_read_avg_wavg_max"></div>
+         <div id="vg_read"></div>
+         <div id="vg_size_avg_wavg_max"></div>
+         <div id="vg_size"></div>
+         <div id="vg_write_avg_wavg_max"></div>
+         <div id="vg_write"></div>
+         <div id="vg_xfer_avg_wavg_max"></div>
+         <div id="vg_xfer"></div>
+      <!-- <hr width="75%"> -->
+         <div id="cpu_all"></div>
+         <div id="cpu_lcpu"></div>
+         <div id="CPU01"></div> <div id="CPU02"></div> <div id="CPU03"></div> <div id="CPU04"></div> <div id="CPU05"></div> <div id="CPU06"></div> <div id="CPU07"></div> <div id="CPU08"></div> <div id="CPU09"></div> <div id="CPU10"></div> <div id="CPU11"></div> <div id="CPU12"></div> <div id="CPU13"></div> <div id="CPU14"></div> <div id="CPU15"></div> <div id="CPU16"></div> <div id="CPU17"></div> <div id="CPU18"></div> <div id="CPU19"></div> <div id="CPU20"></div> <div id="CPU21"></div> <div id="CPU22"></div> <div id="CPU23"></div> <div id="CPU24"></div> <div id="CPU25"></div> <div id="CPU26"></div> <div id="CPU27"></div> <div id="CPU28"></div> <div id="CPU29"></div> <div id="CPU30"></div> <div id="CPU31"></div> <div id="CPU32"></div> <div id="CPU33"></div> <div id="CPU34"></div> <div id="CPU35"></div> <div id="CPU36"></div> <div id="CPU37"></div> <div id="CPU38"></div> <div id="CPU39"></div> <div id="CPU40"></div> <div id="CPU41"></div> <div id="CPU42"></div> <div id="CPU43"></div> <div id="CPU44"></div> <div id="CPU45"></div> <div id="CPU46"></div> <div id="CPU47"></div> <div id="CPU48"></div> <div id="CPU49"></div> <div id="CPU50"></div> <div id="CPU51"></div> <div id="CPU52"></div> <div id="CPU53"></div> <div id="CPU54"></div> <div id="CPU55"></div> <div id="CPU56"></div> <div id="CPU57"></div> <div id="CPU58"></div> <div id="CPU59"></div> <div id="CPU60"></div> <div id="CPU61"></div> <div id="CPU62"></div> <div id="CPU63"></div> <div id="CPU64"></div>
+      <!-- <hr width="75%"> -->
+
+   </body>
+</html>
+
+
